@@ -78,7 +78,7 @@ p {
 }
 
 .position-container {
-  padding: 7rem 2rem;
+  padding: 8rem 15rem;
 }
 
 .card-container {
@@ -121,7 +121,7 @@ p {
 .text-container {
   padding-top: 2rem;
   padding-left: 2rem;
-  padding-bottom: 0.2rem;
+  padding-bottom: 4rem;
 }
 
 /* 
@@ -130,7 +130,7 @@ Media Queries
 
 */
 
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 823px) {
   .card-container {
     flex-direction: column;
   }
@@ -147,5 +147,21 @@ Media Queries
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 0px;
+  }
+
+  .position-container {
+    padding: 7rem 1.5rem;
+  }
+
+  .text-container {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 0.2rem;
+  }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 825px) {
+  .position-container {
+    padding: 8rem 9rem;
   }
 }
